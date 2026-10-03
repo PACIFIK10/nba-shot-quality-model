@@ -11,7 +11,7 @@ pipeline) → `XGBoost` (gradient boosting classifier) → `scikit-learn`
 (evaluation) → `matplotlib` (shot chart visualization).
 
 <img width="1350" height="1275" alt="shot_chart" src="https://github.com/user-attachments/assets/6d2e0a55-8478-410e-bd0e-a239f8be8368" />
-A basic box score tells you a player made or missed a shot — but not whether it was a good shot to take. Two players can both shoot 45% from three, but one might be getting that from wide-open catch-and-shoot looks and the other from contested step-backs with the clock running out. "Shot quality" tries to separate the decision (was this shot worth taking?) from the outcome (did it go in?) by predicting, before the ball is in the air, what percentage of the time a shot like this should go in.
+The goal was to create a basic box score which tells us a player made or missed a shot, but not whether it was a good shot to take. Two players can both shoot 45% from three, but one might be getting that from wide-open catch-and-shoot looks and the other from contested step-backs with the clock running out. "Shot quality" tries to separate the decision (was this shot worth taking?) from the outcome (did it go in?) by predicting, before the ball is in the air, what percentage of the time a shot like this should go in.
 
 That's a binary classification problem: given everything we know about a shot at the moment it's released, predict the probability it's a make.
 ## How it works
