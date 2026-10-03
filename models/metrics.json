@@ -1,0 +1,15 @@
+{
+  "val_accuracy": 0.6125,
+  "val_auc": 0.6581035294117648,
+  "val_log_loss": 0.6557418704032898,
+  "train_rows": 6400,
+  "val_rows": 1600,
+  "base_rate": 0.468875,
+  "feature_importances": {
+    "shot_distance": 0.3205,
+    "shot_angle": 0.1511,
+    "defender_distance": 0.1972,
+    "shot_clock": 0.1808,
+    "seconds_remaining": 0.1504
+  }
+}
