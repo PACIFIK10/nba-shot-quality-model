@@ -10,6 +10,8 @@ from, independent of a player's shooting luck on any given night.
 pipeline) → `XGBoost` (gradient boosting classifier) → `scikit-learn`
 (evaluation) → `matplotlib` (shot chart visualization).
 
+<img width="1350" height="1275" alt="shot_chart" src="https://github.com/user-attachments/assets/6d2e0a55-8478-410e-bd0e-a239f8be8368" />
+
 ## How it works
 
 1. **Data** — `src/fetch_data.py` pulls shot-by-shot attempt data (court
